@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.section1{
+	background: url(img/hero_sunset_large_2x.jpg) no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+}
+.section1>div{
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+	top: 800px;
+}
+.section1>div a{
+	display: inline-block;
+	margin-top: 10%;
+	color:#f7762b;
+}
+.section1 h1{
+	margin-top: 50px;
+	font-size: 4em;
+	font-weight: normal;
+}
+
+
+.section2{
+	background: url(img/technology_hero_large_2x.jpg) no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	color: #000;
+}
+.section2>div h1{
+	margin: 50px;
+	font-weight: normal;
+}
+.section2>div a{
+	color: #329be6;
+}
+
+
+.section3{
+	background: url(img/timekeeping_hero_large_2x.jpg) no-repeat center 300px;
+	background-size: 50%;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	color: #000;
+}
+.section3>div{
+	width: 70%;
+	position: absolute;
+	right: -50%;
+}
+.section3 h1{
+	position: relative;
+	left: -50%;
+}
+
+.section4>div{
+	width: 95%;
+	display: flex;
+	flex-direction:row;
+}
+.section4 h1{
+	margin: 30px auto;
+	text-align: center;
+
+}
+.section4>div div{
+	margin-right: 20px;
+	flex-grow:1;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	background: #f2f2f2;
+	padding: 20px;
+}
+.section4>div div p{
+	font-size: 14px;
+}
+.section4>div div img{
+	width: 150px;
+	height: 280px;
+}
+.appleIcon{
+	background: url("img/logo_collection_primary.svg");
+	background-size: 102px 22px;
+	height: 22px;
+	width: 102px;
+	display: inline-block;
+}
